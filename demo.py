@@ -14,4 +14,4 @@ def read_file(filename):
 
 # Example usage
 if __name__ == "__main__":
-    read_file("file.txt")
+    read_file("news.txt")
