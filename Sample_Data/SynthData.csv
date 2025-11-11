@@ -1,0 +1,31 @@
+EmployeeID,Name,Department,JobTitle,Age,Gender,HireDate,YearsAtCompany,Salary,PerformanceScore,Remote,City,State
+1001,John Smith,Sales,Sales Executive,34,M,2017-05-14,8,68000,3,No,New York,NY
+1002,Sarah Johnson,Marketing,Marketing Manager,41,F,2012-09-10,13,88000,4,No,Chicago,IL
+1003,David Lee,Engineering,Software Engineer,29,M,2019-03-18,6,95000,5,Yes,San Francisco,CA
+1004,Emily Davis,Engineering,Data Scientist,32,F,2018-07-22,7,102000,4,Yes,Austin,TX
+1005,Michael Brown,HR,HR Specialist,45,M,2010-01-10,15,72000,3,No,Seattle,WA
+1006,Linda Taylor,Finance,Accountant,39,F,2016-11-02,9,69000,2,No,Chicago,IL
+1007,James Wilson,Sales,Sales Representative,26,M,2021-02-08,4,56000,5,Yes,Denver,CO
+1008,Patricia Moore,Customer Support,Support Lead,37,F,2015-05-30,10,63000,4,No,Miami,FL
+1009,Robert Anderson,Engineering,DevOps Engineer,31,M,2019-10-10,6,97000,5,Yes,Portland,OR
+1010,Jennifer Thomas,Engineering,Software Engineer,28,F,2020-01-20,5,91000,4,Yes,Boston,MA
+1011,William Jackson,Marketing,SEO Specialist,33,M,2017-04-01,8,65000,3,No,Los Angeles,CA
+1012,Elizabeth White,HR,Recruiter,30,F,2020-06-10,5,60000,4,Yes,Seattle,WA
+1013,Charles Harris,Finance,Financial Analyst,44,M,2011-03-25,14,83000,3,No,New York,NY
+1014,Jessica Martin,Customer Support,Customer Rep,27,F,2022-07-12,3,48000,4,Yes,Atlanta,GA
+1015,Thomas Thompson,Engineering,QA Engineer,35,M,2016-12-05,9,85000,3,No,Austin,TX
+1016,Nancy Garcia,Marketing,Content Writer,31,F,2019-09-16,6,61000,5,Yes,Chicago,IL
+1017,Christopher Martinez,Sales,Account Manager,38,M,2015-08-22,10,74000,4,No,New York,NY
+1018,Daniel Robinson,Finance,Accountant,42,M,2014-10-30,11,71000,2,No,Miami,FL
+1019,Karen Clark,Engineering,Data Engineer,29,F,2021-03-15,4,94000,4,Yes,San Francisco,CA
+1020,Matthew Rodriguez,Sales,Sales Executive,36,M,2013-09-05,12,77000,3,No,Los Angeles,CA
+1021,Susan Lewis,Customer Support,Support Specialist,25,F,2023-02-10,2,45000,5,Yes,Denver,CO
+1022,Anthony Walker,HR,HR Manager,47,M,2009-12-20,16,89000,3,No,Chicago,IL
+1023,Mary Hall,Finance,Controller,50,F,2008-04-14,17,120000,4,No,New York,NY
+1024,Joseph Allen,Engineering,Software Architect,40,M,2012-07-28,13,125000,5,Yes,Austin,TX
+1025,Sandra Young,Marketing,Social Media Manager,28,F,2021-10-05,4,64000,4,Yes,Los Angeles,CA
+1026,Andrew Hernandez,Engineering,ML Engineer,33,M,2017-09-19,8,110000,5,Yes,San Francisco,CA
+1027,Donna King,Customer Support,Support Manager,43,F,2011-05-11,14,78000,3,No,Miami,FL
+1028,Joshua Wright,Sales,Sales Associate,30,M,2020-09-25,5,59000,4,Yes,Denver,CO
+1029,Amy Lopez,Finance,Payroll Specialist,38,F,2016-02-22,9,67000,3,No,Chicago,IL
+1030,Steven Scott,Engineering,Backend Developer,27,M,2022-06-17,3,92000,4,Yes,Boston,MA
