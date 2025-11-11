@@ -1,65 +1,79 @@
-import pandas as pd
-
-# Large sample dataset (75 entries)
-data = {
-    "Name": [
-        "Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George", "Hannah",
-        "Ian", "Jasmine", "Kevin", "Laura", "Michael", "Nina", "Oscar", "Paula",
-        "Quentin", "Rachel", "Sam", "Tina", "Uma", "Victor", "Wendy", "Xavier",
-        "Yvonne", "Zach", "Aaron", "Bella", "Caleb", "Delilah", "Eli", "Faith",
-        "Gavin", "Hailey", "Isaac", "Jared", "Kara", "Liam", "Mila", "Noah",
-        "Olivia", "Peter", "Quincy", "Rita", "Steven", "Tracy", "Ulysses", "Vera",
-        "Walter", "Xena", "Yasir", "Zoey", "Abel", "Bianca", "Cameron", "Daisy",
-        "Edward", "Faith", "Gracie", "Henry", "Isabel", "Jack", "Kylie", "Leo",
-        "Maya", "Nathan", "Ophelia", "Patrick", "Queen", "Robert", "Sophia", "Thomas",
-        "Umar", "Valerie", "William", "Ximena", "Yara", "Zane"
-    ],
-    "Age": [
-        25, 30, 28, 22, 35, 27, 40, 26,
-        33, 29, 31, 24, 38, 23, 45, 32,
-        34, 28, 29, 26, 30, 37, 25, 41,
-        27, 39, 31, 24, 29, 33, 36, 22,
-        35, 26, 28, 30, 32, 27, 25, 40,
-        38, 29, 34, 31, 37, 26, 32, 28,
-        33, 27, 36, 29, 35, 30, 28, 32,
-        34, 31, 29, 33, 27, 30, 28, 35,
-        36, 32, 29, 31, 27, 33, 30, 28,
-        34, 32, 29, 31, 27, 36, 33, 30, 28
-    ],
-    "City": [
-        "New York", "London", "Paris", "Berlin", "Tokyo", "Sydney", "Toronto", "Rome",
-        "Madrid", "Dubai", "Chicago", "Boston", "Amsterdam", "Lisbon", "Prague", "Seoul",
-        "Singapore", "Vienna", "Cairo", "Istanbul", "Oslo", "Dublin", "Stockholm", "Warsaw",
-        "Zurich", "Brussels", "Helsinki", "Copenhagen", "Budapest", "Osaka", "Seville", "Lagos",
-        "Jakarta", "Taipei", "Munich", "Delhi", "Doha", "Geneva", "Melbourne", "Manila",
-        "Casablanca", "Moscow", "Athens", "Beirut", "Kuala Lumpur", "Barcelona", "Hanoi", "Bangkok",
-        "Lisbon", "Vienna", "Prague", "Seoul", "Tokyo", "Dubai", "London", "Paris",
-        "Berlin", "Rome", "New York", "Toronto", "Madrid", "Chicago", "Sydney", "Boston",
-        "Amsterdam", "Zurich", "Warsaw", "Stockholm", "Dublin", "Oslo", "Beirut", "Athens",
-        "Moscow", "Melbourne", "Manila", "Casablanca", "Bangkok", "Hanoi", "Barcelona", "Jakarta", "Lagos"
-    ],
-    "Department": [
-        "HR", "Finance", "IT", "Marketing", "Engineering", "Design", "HR", "Finance",
-        "Engineering", "IT", "Design", "Finance", "HR", "Engineering", "Marketing", "IT",
-        "Design", "Finance", "Engineering", "HR", "Marketing", "IT", "Finance", "Engineering",
-        "HR", "Marketing", "Design", "Finance", "Engineering", "IT", "Marketing", "HR",
-        "Design", "Finance", "IT", "Engineering", "Marketing", "HR", "Finance", "Design",
-        "IT", "Engineering", "HR", "Finance", "Marketing", "IT", "Engineering", "HR",
-        "Finance", "Design", "Marketing", "Engineering", "IT", "HR", "Finance", "Marketing",
-        "Engineering", "IT", "HR", "Finance", "Design", "Marketing", "IT", "Engineering",
-        "HR", "Finance", "Design", "Marketing", "Engineering", "IT", "HR", "Finance",
-        "Marketing", "Design", "Engineering", "IT", "HR", "Finance", "Design", "Marketing"
-    ],
-    "Salary": [
-        55000, 62000, 71000, 48000, 95000, 58000, 60000, 54000,
-        87000, 69000, 63000, 59000, 80000, 52000, 76000, 72000,
-        64000, 67000, 88000, 57000, 69000, 73000, 61000, 92000,
-        66000, 75000, 70000, 68000, 74000, 79000, 81000, 56000,
-        85000, 63000, 71000, 83000, 76000, 58000, 62000, 94000,
-        87000, 69000, 64000, 72000, 80000, 65000, 73000, 67000,
-        78000, 71000, 69000, 82000, 75000, 68000, 72000, 70000,
-        74000, 76000, 71000, 73000, 68000, 79000, 81000, 72000,
-        74000, 77000, 73000, 76000, 68000, 75000, 72000, 74000, 78000, 71000, 76000, 73000, 79000, 72000, 75000
-    ]
-}
-
+Name,Age,City,Department,Salary
+Alice,25,New York,HR,55000
+Bob,30,London,Finance,62000
+Charlie,28,Paris,IT,71000
+Diana,22,Berlin,Marketing,48000
+Ethan,35,Tokyo,Engineering,95000
+Fiona,27,Sydney,Design,58000
+George,40,Toronto,HR,60000
+Hannah,26,Rome,Finance,54000
+Ian,33,Madrid,Engineering,87000
+Jasmine,29,Dubai,IT,69000
+Kevin,31,Chicago,Design,63000
+Laura,24,Boston,Finance,59000
+Michael,38,Amsterdam,HR,80000
+Nina,23,Lisbon,Engineering,52000
+Oscar,45,Prague,Marketing,76000
+Paula,32,Seoul,IT,72000
+Quentin,34,Singapore,Design,64000
+Rachel,28,Vienna,Finance,67000
+Sam,29,Cairo,Engineering,88000
+Tina,26,Istanbul,HR,57000
+Uma,30,Oslo,Marketing,69000
+Victor,37,Dublin,IT,73000
+Wendy,25,Stockholm,Finance,61000
+Xavier,41,Warsaw,Engineering,92000
+Yvonne,27,Zurich,HR,66000
+Zach,39,Brussels,Marketing,75000
+Aaron,31,Helsinki,Design,70000
+Bella,24,Copenhagen,Finance,68000
+Caleb,29,Budapest,Engineering,74000
+Delilah,33,Osaka,IT,79000
+Eli,36,Seville,Marketing,81000
+Faith,22,Lagos,HR,56000
+Gavin,35,Jakarta,Design,85000
+Hailey,26,Taipei,Finance,63000
+Isaac,28,Munich,IT,71000
+Jared,30,Delhi,Engineering,83000
+Kara,32,Doha,Marketing,76000
+Liam,27,Geneva,HR,58000
+Mila,25,Melbourne,Finance,62000
+Noah,40,Manila,Design,94000
+Olivia,38,Casablanca,IT,87000
+Peter,29,Moscow,Engineering,69000
+Quincy,34,Athens,HR,64000
+Rita,31,Beirut,Finance,72000
+Steven,37,Kuala Lumpur,Marketing,80000
+Tracy,26,Barcelona,IT,65000
+Ulysses,32,Hanoi,Engineering,73000
+Vera,28,Bangkok,HR,67000
+Walter,33,Lisbon,Finance,78000
+Xena,27,Vienna,Design,71000
+Yasir,36,Prague,Marketing,69000
+Zoey,29,Seoul,Engineering,82000
+Abel,35,Tokyo,IT,75000
+Bianca,30,Dubai,HR,68000
+Cameron,28,London,Finance,72000
+Daisy,32,Paris,Marketing,70000
+Edward,34,Berlin,Engineering,74000
+Faith,31,Rome,IT,76000
+Gracie,29,New York,HR,71000
+Henry,33,Toronto,Finance,73000
+Isabel,27,Madrid,Design,68000
+Jack,30,Chicago,Marketing,79000
+Kylie,28,Sydney,IT,81000
+Leo,35,Boston,Engineering,72000
+Maya,36,Amsterdam,HR,74000
+Nathan,32,Zurich,Finance,78000
+Ophelia,29,Warsaw,Design,71000
+Patrick,31,Stockholm,Marketing,76000
+Queen,27,Dublin,Engineering,73000
+Robert,33,Oslo,IT,79000
+Sophia,30,Beirut,HR,72000
+Thomas,28,Athens,Finance,75000
+Umar,34,Moscow,Design,78000
+Valerie,32,Melbourne,Marketing,71000
+William,29,Manila,Engineering,76000
+Ximena,31,Casablanca,IT,73000
+Yara,27,Bangkok,HR,79000
+Zane,36,Hanoi,Finance,72000
