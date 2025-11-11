@@ -1,0 +1,55 @@
+Data written to pandas/data_50.csv
+
+Read data from CSV:
+
+     id      name  age     city  salary
+0     1  Person_1   32   London    7164
+1     2  Person_2   57   Berlin    8200
+2     3  Person_3   41    Tokyo    7832
+3     4  Person_4   43    Tokyo    7310
+4     5  Person_5   53    Tokyo    4862
+5     6  Person_6   31   Berlin    6298
+6     7  Person_7   47   London    7842
+7     8  Person_8   20   London    3738
+8     9  Person_9   37    Tokyo    7490
+9    10  Person_10  58   London    6177
+10   11  Person_11  25   Berlin    7301
+11   12  Person_12  56   Berlin    5338
+12   13  Person_13  33   Berlin    7043
+13   14  Person_14  23  New York  8798
+14   15  Person_15  28   London    4193
+15   16  Person_16  21   Berlin    7060
+16   17  Person_17  46   London    3495
+17   18  Person_18  55   Berlin    3997
+18   19  Person_19  34   Berlin    7745
+19   20  Person_20  37   London    8397
+20   21  Person_21  28   Berlin    7454
+21   22  Person_22  47   Berlin    8373
+22   23  Person_23  26   London    4840
+23   24  Person_24  38   Berlin    8514
+24   25  Person_25  31    Tokyo    8497
+25   26  Person_26  57   London    5758
+26   27  Person_27  54  New York  6176
+27   28  Person_28  45   London    7401
+28   29  Person_29  48   Berlin    5264
+29   30  Person_30  52   Berlin    6078
+30   31  Person_31  58   London    6780
+31   32  Person_32  21   Berlin    7511
+32   33  Person_33  23  New York  5832
+33   34  Person_34  28  New York  3881
+34   35  Person_35  26   Berlin    8250
+35   36  Person_36  42    Tokyo    5099
+36   37  Person_37  51    Tokyo    6242
+37   38  Person_38  49   Berlin    8747
+38   39  Person_39  22   Berlin    6509
+39   40  Person_40  27   Berlin    5737
+40   41  Person_41  55   London    6567
+41   42  Person_42  59  New York  8833
+42   43  Person_43  47   Berlin    5453
+43   44  Person_44  27  New York  5612
+44   45  Person_45  42   Berlin    7472
+45   46  Person_46  44    Tokyo    7952
+46   47  Person_47  29   Berlin    5194
+47   48  Person_48  40   Berlin    8359
+48   49  Person_49  57   Berlin    4535
+49   50  Person_50  54   Berlin    6718

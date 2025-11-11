@@ -1,0 +1,53 @@
+Name,Age,City,Salary,Department,Experience_Years
+Alice,28,London,72000,HR,10
+Bob,34,Paris,54000,IT,5
+Charlie,21,Tokyo,46000,Finance,2
+Diana,50,New York,98000,Marketing,20
+Ethan,45,London,60000,Sales,18
+Fiona,29,Paris,51000,HR,6
+George,39,Tokyo,75000,IT,12
+Hannah,22,New York,33000,Finance,1
+Ian,31,London,67000,Marketing,8
+Jane,26,Paris,41000,Sales,3
+Kevin,35,Berlin,59000,HR,10
+Laura,24,London,48000,IT,2
+Mike,42,Tokyo,88000,Finance,15
+Nina,30,New York,55000,Marketing,7
+Oscar,27,Paris,50000,Sales,4
+Paula,33,Berlin,62000,HR,9
+Quinn,40,London,79000,IT,14
+Rachel,23,Tokyo,39000,Finance,1
+Steve,38,New York,73000,Marketing,12
+Tina,29,Paris,61000,Sales,6
+Uma,32,Berlin,67000,HR,11
+Victor,36,London,81000,IT,13
+Wendy,25,Tokyo,45000,Finance,3
+Xavier,41,New York,90000,Marketing,17
+Yara,28,Paris,53000,Sales,6
+Zach,37,Berlin,76000,HR,12
+Amber,22,London,37000,IT,1
+Brian,44,Tokyo,85000,Finance,16
+Chloe,31,New York,62000,Marketing,8
+Derek,27,Paris,49000,Sales,4
+Ella,35,Berlin,70000,HR,10
+Frank,39,London,78000,IT,12
+Grace,24,Tokyo,42000,Finance,2
+Henry,46,New York,95000,Marketing,18
+Irene,29,Paris,58000,Sales,6
+Jack,33,Berlin,65000,HR,9
+Kelly,38,London,79000,IT,14
+Liam,26,Tokyo,44000,Finance,3
+Mia,42,New York,87000,Marketing,15
+Noah,30,Paris,60000,Sales,7
+Olivia,32,Berlin,67000,HR,11
+Peter,37,London,76000,IT,12
+Quinn,23,Tokyo,38000,Finance,1
+Ruby,41,New York,90000,Marketing,17
+Sam,28,Paris,54000,Sales,6
+Tara,34,Berlin,69000,HR,10
+Uma,39,London,81000,IT,13
+Victor,25,Tokyo,43000,Finance,2
+Wendy,45,New York,92000,Marketing,16
+Xavier,29,Paris,57000,Sales,6
+Yara,36,Berlin,75000,HR,12
+Zach,22,London,36000,IT,1

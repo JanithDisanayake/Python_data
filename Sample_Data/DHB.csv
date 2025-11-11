@@ -1,0 +1,18 @@
+import pandas as pd
+import random
+
+
+names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ian", "Julia",
+         "Kevin", "Lara", "Mike", "Nina", "Oscar", "Paula", "Quinn", "Rita", "Sam", "Tina"]
+cities = ["New York", "London", "Paris", "Berlin", "Tokyo", "Sydney", "Toronto", "Rome", "Madrid", "Amsterdam"]
+
+
+data = {
+    "name": [random.choice(names) for _ in range(60)],
+    "age": [random.randint(20, 60) for _ in range(60)],
+    "city": [random.choice(cities) for _ in range(60)]
+}
+
+
+df = pd.DataFrame(data)
+print(df.head(10))
