@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Large sample dataset (75 entries)
+# Large sample in dataset (75 entries)
 data = {
     "Name": [
         "Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George", "Hannah",
